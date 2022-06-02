@@ -1,29 +1,28 @@
 import { CONFIG } from './config'
 
 export const WORDS = [
-‘mina’,
-‘laazh’,
-‘avaan’,
-‘klosh’,
-‘ahpoo’,
-‘tapii’,
-‘kilot’,
-‘fleur’,
-‘batoo’,
-‘paray’,
-‘taant’,
-‘grenn’,
-‘roozh’,
-‘salay’,
-‘balay’,
-‘playn’,
-‘plenn’,
-‘frayr’,
-‘pchit’,
-‘machi’,
-‘miina’,
-‘swayr’
-]
+  ‘mina’,
+  ‘laazh’,
+  ‘avaan’,
+  ‘klosh’,
+  ‘ahpoo’,
+  ‘tapii’,
+  ‘kilot’,
+  ‘fleur’,
+  ‘batoo’,
+  ‘paray’,
+  ‘taant’,
+  ‘grenn’,
+  ‘roozh’,
+  ‘salay’,
+  ‘balay’,
+  ‘playn’,
+  ‘plenn’,
+  ‘frayr’,
+  ‘pchit’,
+  ‘machi’,
+  ‘miina’,
+  ‘swayr’]
 
 if (CONFIG.normalization) {
   WORDS.forEach((val, i) => (WORDS[i] = val.normalize(CONFIG.normalization)))
