@@ -1,6 +1,6 @@
 import { CONFIG } from './config'
 
-export const VALIDGUESSES = [‘mina’,‘laazh’,‘avaan’,‘klosh’,‘ahpoo’,‘tapii’,‘kilot’,‘fleur’,‘batoo’,‘paray’,‘taant’,‘grenn’,‘roozh’,‘salay’,‘balay’,‘playn’,‘plenn’,‘frayr’,‘pchit’,‘machi’,‘miina’,‘swayr']
+export const VALIDGUESSES = [‘laazh’,‘avaan’,‘klosh’,‘ahpoo’,‘tapii’,‘kilot’,‘fleur’,‘batoo’,‘paray’,‘taant’,‘grenn’,‘roozh’,‘salay’,‘balay’,‘playn’,‘plenn’,‘frayr’,‘pchit’,‘machi’,‘miina’,‘swayr']
 
 if (CONFIG.normalization) {
   VALIDGUESSES.forEach(
